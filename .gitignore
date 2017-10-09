@@ -71,3 +71,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Add VSCODE
+.vscode
