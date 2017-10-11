@@ -11,7 +11,7 @@ module.exports = {
   devtool: 'eval-source-map',
   entry: {
     prelogin: [
-      path.join(rootPath, 'src/js/modules/index'),
+      path.join(rootPath, 'src/index'),
       'webpack/hot/only-dev-server',
       'webpack-dev-server/client?http://localhost:3000'
     ]
